@@ -1,5 +1,3 @@
-
-
 interface ButtonProps{
     label: string; 
 }
@@ -16,7 +14,6 @@ const Button: React.FC<ButtonProps> = ({label}) => {
         
         
         "
-        
         >
         {label}
         </button>
