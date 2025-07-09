@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PFP from '../../assets/profilePic.jpeg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,12 +12,12 @@ const Navbar = () => {
           {/* Left: Profile */}
           <div className="flex items-center space-x-4">
             <img
-              src="https://via.placeholder.com/40"
+              src={PFP}
               alt="pfp"
               className="h-10 w-10 rounded-full object-cover"
             />
             <div>
-              <h1 className="text-lg font-semibold text-gray-800">Chris Nicolas</h1>
+              <h1 className="text-lg font-semibold text-gray-800">Christophe NICOLAS</h1>
               <p className="text-sm text-gray-500">Développeur Full Stack</p>
             </div>
           </div>
